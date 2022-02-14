@@ -38,7 +38,7 @@ function menuDeCompra() {
         } else if (preguntas == 0 || preguntas == 'salir') {
             break;
         } else {
-            alert('el numero no es valido');
+            alert('el numero o palabra no es valido');
         }
     } while (preguntas != 0);
 }

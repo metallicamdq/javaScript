@@ -1,0 +1,62 @@
+body {
+  background: #020024;
+  background: -webkit-gradient(linear, left top, right top, from(#020024), color-stop(35%, #090979), to(#00d4ff));
+  background: linear-gradient(90deg, #020024 0%, #090979 35%, #00d4ff 100%);
+}
+
+body h1 {
+  text-align: center;
+}
+
+body .container {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: end;
+  background-color: rgba(48, 211, 132, 0.96);
+}
+
+body .container .tittle-container {
+  width: 60%;
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+  margin: auto;
+}
+
+body .container .nav-options {
+  width: 40%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  text-decoration: none;
+}
+
+body .container .nav-options li {
+  display: inline-block;
+  text-decoration: none;
+  list-style: none;
+  padding: 20px;
+}
+
+body .container .nav-options li a {
+  display: block;
+  font-weight: 600;
+  font-family: sans-serif;
+}
+
+body main .section-1 {
+  width: 100%;
+  background-color: aqua;
+}
+/*# sourceMappingURL=estilos.css.map */

@@ -1,0 +1,43 @@
+
+body{
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
+    h1{
+        text-align: center;
+    }
+    .container{
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        justify-content: end;
+        background-color: rgba(48, 211, 132, 0.96);
+        .tittle-container{
+            width:60%;
+            align-self: center;
+            margin: auto;
+        }
+        .nav-options{
+            width: 40%;
+            display: flex;
+            justify-content: center;
+            text-decoration: none;
+            li{
+                display: inline-block;
+                text-decoration: none;
+                list-style: none;
+                padding: 20px;
+                a{
+                    display: block;
+                    font-weight: 600;
+                    font-family: sans-serif;
+                }
+            }
+        }
+    }
+    main{
+        .section-1{
+            width: 100%;
+            background-color: aqua;
+        }
+    }
+}

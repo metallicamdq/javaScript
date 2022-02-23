@@ -1,6 +1,5 @@
 //variables simples//
-let preguntas;
-let compra;
+let preguntas, compra = null;
 //constructora//
 function Producto(nombreValor, precioValor, stockValor) {
     this.nombre = nombreValor;
@@ -37,8 +36,7 @@ function menuDeCompra() {
         (3) Campo
         (4) PH
         (5) Local
-        (0) Salir`);
-        preguntas = preguntas.toLowerCase();
+        (0) Salir`).toLowerCase();
         if (preguntas == 'casa' || preguntas == 1) {
             compra = prompt('seleccione la cantidad de dias que quiere alquilar');
             let montoTotalC = compra * listaProductos[0].precio;

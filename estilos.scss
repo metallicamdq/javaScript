@@ -38,6 +38,16 @@ body{
         .section-1{
             width: 100%;
             background-color: aqua;
+            h2{
+                text-align: center;
+                background-color: rgba(92, 12, 129, 0.664);
+            }
+            .card-container{
+                display: flex;
+                justify-content: space-around;
+                width: 100%;
+            }
         }
+        
     }
 }
